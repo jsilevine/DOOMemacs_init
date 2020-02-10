@@ -83,8 +83,10 @@
   (insert (concat "```{r " header "}\n\n```"))
   (forward-line -1))
 
-(global-set-key (kbd "C-c i") 'jil-insert-r-chunk)
 
+;; Set new convenient keybindings
+
+(global-set-key (kbd "C-c i") 'jil-insert-r-chunk)
 (global-set-key (kbd "C-x t m") 'treemacs)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
